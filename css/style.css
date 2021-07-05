@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+li{
+    text-align: center;
+    flex-basis: 20%;
+    padding: 5px;
+    border:1px solid black;
+    
+}
+
+.fizz{
+    background-color: cyan;
+}
+
+.buzz{
+    background-color: yellow;
+}
+
+.fizzbuzz{
+    background-color: violet;
+}
